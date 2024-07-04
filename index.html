@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <nav class="navbar nav-1">
+            <section class="flex">
+                <a href="./index.html" class="logo"><i class="fas fa-house"></i> MyHome </a>
+
+                <ul>
+                    <li><a href="#">Post Property <i class="fas fa-paper-plane"></i></a></li>
+                </ul>
+            </section>
+
+        </nav>
+
+
+        <nav class="navbar nav-2">
+            <section class="flex">
+                <div id="menu-btn" class="fas fa-bars"></div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Buy</a><i class="fas fa-angle-down"></i>
+                            <ul>
+                                <li><a href="#">House</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Store</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Sell <i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#">Post property</a></li>
+                                <li><a href="#">Dashboard</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Rent</a><i class="fas fa-angle-down"></i>
+                            <ul>
+                                <li><a href="#">House</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Store</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Help</a><i class="fas fa-angle-down"></i>
+                            <ul>
+                                <li><a href="./about.html">About Us</a></li>
+                                <li><a href="./contactus.html">Contact Us</a></li>
+                                <li><a href="./contactus.html#faq">FAQ</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <ul>
+                    <li><a href="#">Saved <i class="far fa-heart"></i></a></li>
+                    <li><a href="#">Account <i class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="./login.html">Login</a></li>
+                            <li><a href="./register.html">Register</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+            </section>
+        </nav>
+    </header>
+
+    <!-- MAIN AREA -->
+
+    <div class="home">
+
+        <section class="center">
+
+            <form action="search.html" method="post">
+                <h3>find your perfect home</h3>
+                <div class="box">
+                    <p>enter location</p>
+                    <input type="text" name="location" required maxlength="50" placeholder="enter city name"
+                        class="input">
+                </div>
+                <div class="flex">
+                    <div class="box">
+                        <p>property type</p>
+                        <select name="type" class="input" required>
+                            <option value="flat">flat</option>
+                            <option value="shop">shop</option>
+                            <option value="hostel">hostel</option>
+                            <option value="duplex">duplex</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <p>specification</p>
+                        <select name="bedroom" class="input" required>
+                            <option value="1">1 bed</option>
+                            <option value="1">2 bed</option>
+                            <option value="1">3 bed</option>
+                            <option value="1">4 bed</option>
+                            <option value="1">5 bed</option>
+                            <option value="1">6 bed</option>
+                            <option value="1">7 bed</option>
+                            <option value="1">8 bed</option>
+                            <option value="1">9 bed</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <p>specification</p>
+                        <select name="minimum" class="input" required>
+                            <option value="500000">5m</option>
+                            <option value="5000000">10m</option>
+                            <option value="6000000">20m</option>
+                            <option value="7000000">30m</option>
+                            <option value="8000000">40m</option>
+                            <option value="9000000">50m</option>
+                            <option value="10000000">60m</option>
+                            <option value="110000000">70m</option>
+                            <option value="120000000">80m</option>
+                            <option value="130000000">90m</option>
+                            <option value="140000000">100m</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <p>specification</p>
+                        <select name="maximum" class="input" required>
+                            <option value="500000">5m</option>
+                            <option value="5000000">10m</option>
+                            <option value="6000000">20m</option>
+                            <option value="7000000">30m</option>
+                            <option value="8000000">40m</option>
+                            <option value="9000000">50m</option>
+                            <option value="10000000">60m</option>
+                            <option value="110000000">70m</option>
+                            <option value="120000000">80m</option>
+                            <option value="130000000">90m</option>
+                            <option value="140000000">100m</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="search property" name="search" class="btn">
+            </form>
+        </section>
+    </div>
+
+    <section class="service">
+
+        <h1 class="heading">Our Services</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/buy.png" alt="">
+                <h3>buy house</h3>
+                <p>Lorem ipsum dolor, Reprehenderit dolores eum nesciunt sed
+                    alias qui autem excepturi ad aliquid laboriosam?</p>
+            </div>
+            <div class="box">
+                <img src="image/rent.png" alt="">
+                <h3>rent house</h3>
+                <p>Lorem ipsum dolor, Reprehenderit dolores eum nesciunt sed
+                    alias qui autem excepturi ad aliquid laboriosam?</p>
+            </div>
+            <div class="box">
+                <img src="image/sale.png" alt="">
+                <h3>sell house</h3>
+                <p>Lorem ipsum dolor, Reprehenderit dolores eum nesciunt sed
+                    alias qui autem excepturi ad aliquid laboriosam?</p>
+            </div>
+            <div class="box">
+                <img src="image/house-2368389_1280.jpg" alt="">
+                <h3>owen house</h3>
+                <p>Lorem ipsum dolor, Reprehenderit dolores eum nesciunt sed
+                    alias qui autem excepturi ad aliquid laboriosam?</p>
+            </div>
+            <div class="box">
+                <img src="image/rent.png" alt="">
+                <h3>rent house</h3>
+                <p>Lorem ipsum dolor, Reprehenderit dolores eum nesciunt sed
+                    alias qui autem excepturi ad aliquid laboriosam?</p>
+            </div>
+            <div class="box">
+                <img src="image/rent.png" alt="">
+                <h3>rent house</h3>
+                <p>Lorem ipsum dolor, Reprehenderit dolores eum nesciunt sed
+                    alias qui autem excepturi ad aliquid laboriosam?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="listing">
+
+        <h1 class="heading">latest listings</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="admin">
+                    <h3>leo</h3>
+                    <div>
+                        <p>Leo Tom</p>
+                        <span>13-09-2023</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                    <p class="type"><span>flat</span><span>sale</span></p>
+                    <form action="" method="post">
+                        <button type="submit" name="save" class="far fa-heart"></button>
+                    </form>
+                    <img src="./image/house-409451_1280.jpg" alt="">
+                </div>
+                <h3 class="name">modern flats and appartments</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i>
+                    <span>Refinary road, Benin, Edo state</span>
+                </p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>5</span></p>
+                    <p><i class="fas fa-bath"></i><span>5</span></p>
+                    <p><i class="fas fa-maximize"></i><span>890sqft</span></p>
+                </div>
+                <a href="./view_property.html" class="btn">view property</a>
+            </div>
+
+            <div class="box">
+                <div class="admin">
+                    <h3>Vee</h3>
+                    <div>
+                        <p>Vee James</p>
+                        <span>13-04-2024</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                    <p class="type"><span>flat</span><span>sale</span></p>
+                    <form action="" method="post">
+                        <button type="submit" name="save" class="far fa-heart"></button>
+                    </form>
+                    <img src="./image/lost-places-2759275_1280.jpg" alt="">
+                </div>
+                <h3 class="name">modern flats and appartments</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i>
+                    <span>Okpanam road, Asaba, Delta state</span>
+                </p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>6</span></p>
+                    <p><i class="fas fa-bath"></i><span>4</span></p>
+                    <p><i class="fas fa-maximize"></i><span>650sqft</span></p>
+                </div>
+                <a href="./view_property.html" class="btn">view property</a>
+            </div>
+
+            <div class="box">
+                <div class="admin">
+                    <h3>Son</h3>
+                    <div>
+                        <p>Son jin</p>
+                        <span>1-06-2024</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                    <p class="type"><span>flat</span><span>sale</span></p>
+                    <form action="" method="post">
+                        <button type="submit" name="save" class="far fa-heart"></button>
+                    </form>
+                    <img src="./image/house-1836070_1280.jpg" alt="">
+                </div>
+                <h3 class="name">modern flats and appartments</h3>
+                <p class="location"><i class="fas fa-map-marker-alt"></i>
+                    <span>Peter-Odili, Port-harcourt, Rivers state</span>
+                </p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>3</span></p>
+                    <p><i class="fas fa-bath"></i><span>4</span></p>
+                    <p><i class="fas fa-maximize"></i><span>500sqft</span></p>
+                </div>
+                <a href="./view_property.html" class="btn">view property</a>
+            </div>
+        </div>
+
+        <div style="margin-top: 2rem; text-align: center;">
+            <a href="lightening.html" class="inline-btn">view all</a>
+        </div>
+
+    </section>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+
+        <section class="flex">
+
+            <div class="box">
+                <a href="tel:+2340700011002"><i class="fas fa-phone"> </i><span>+2340700011002</span></a>
+                <a href="tel:+2340800011002"><i class="fas fa-phone"> </i><span>+2340800011002</span></a>
+                <a href="mailto:abc123@gmail.com"><i class="fas fa-envelope"> </i><span>abc123@gmail.com</span></a>
+                <a href="#"><i class="fas fa-map-marker-alt"> </i><span>Rumuibekwe, PortHarcourt</span></a>
+
+            </div>
+
+            <div class="box">
+                <a href="index.html"><span>Home</span></a>
+                <a href="about.html"><span>About us</span></a>
+                <a href="contactus.html"><span>Contact us</span></a>
+                <a href="lightening.html"><span>Listings</span></a>
+                <a href="#"><span>Saved</span></a>
+            </div>
+
+            <div class="box">
+                <a href="#"><span>Facebook</span> <i class="fab fa-facebook"></i></a>
+                <a href="#"><span>Twitter</span> <i class="fab fa-twitter"></i></a>
+                <a href="#"><span>Linkedin</span> <i class="fab fa-linkedin"></i></a>
+                <a href="#"><span>Instagram</span> <i class="fab fa-instagram"></i></a>
+            </div>
+
+
+        </section>
+
+        <div class="credit">&copy; copyright @ 2024 by <span> Ukpetech.</span> | all rights reserverd!</div>
+
+    </footer>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
